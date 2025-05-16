@@ -1,0 +1,92 @@
+{
+    "kind": "collectionType",
+    "collectionName": "service_mains",
+    "info": {
+        "singularName": "service-main",
+        "pluralName": "service-mains",
+        "displayName": "service-main",
+        "description": ""
+    },
+    "options": {
+        "draftAndPublish": true
+    },
+    "pluginOptions": {
+        "i18n": {
+            "localized": true
+        }
+    },
+    "attributes": {
+        "Title": {
+            "type": "string",
+            "pluginOptions": {
+                "i18n": {
+                    "localized": true
+                }
+            }
+        },
+        "subtitle": {
+            "type": "string",
+            "pluginOptions": {
+                "i18n": {
+                    "localized": true
+                }
+            }
+        },
+        "link": {
+            "type": "string",
+            "pluginOptions": {
+                "i18n": {
+                    "localized": true
+                }
+            }
+        },
+        "image": {
+            "type": "media",
+            "multiple": false,
+            "required": false,
+            "allowedTypes": [
+                "images",
+                "files",
+                "videos",
+                "audios"
+            ],
+            "pluginOptions": {
+                "i18n": {
+                    "localized": true
+                }
+            }
+        },
+        "shape": {
+            "type": "media",
+            "multiple": false,
+            "required": false,
+            "allowedTypes": [
+                "images",
+                "files",
+                "videos",
+                "audios"
+            ],
+            "pluginOptions": {
+                "i18n": {
+                    "localized": true
+                }
+            }
+        },
+        "order": {
+            "type": "integer",
+            "pluginOptions": {
+                "i18n": {
+                    "localized": true
+                }
+            }
+        },
+        "button": {
+            "type": "string",
+            "pluginOptions": {
+                "i18n": {
+                    "localized": true
+                }
+            }
+        }
+    }
+}

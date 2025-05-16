@@ -1,0 +1,72 @@
+{
+    "kind": "collectionType",
+    "collectionName": "navbars",
+    "info": {
+        "singularName": "navbar",
+        "pluralName": "navbars",
+        "displayName": "Navbar",
+        "description": ""
+    },
+    "options": {
+        "draftAndPublish": true
+    },
+    "pluginOptions": {
+        "i18n": {
+            "localized": true
+        }
+    },
+    "attributes": {
+        "navbarTxt": {
+            "type": "string",
+            "pluginOptions": {
+                "i18n": {
+                    "localized": true
+                }
+            }
+        },
+        "url": {
+            "type": "string",
+            "pluginOptions": {
+                "i18n": {
+                    "localized": true
+                }
+            }
+        },
+        "ocered": {
+            "type": "integer",
+            "pluginOptions": {
+                "i18n": {
+                    "localized": true
+                }
+            }
+        },
+        "gorunsunmi": {
+            "type": "boolean",
+            "pluginOptions": {
+                "i18n": {
+                    "localized": true
+                }
+            }
+        },
+        "navbar": {
+            "type": "relation",
+            "relation": "manyToOne",
+            "target": "api::navbar.navbar",
+            "inversedBy": "dropdowns"
+        },
+        "dropdowns": {
+            "type": "relation",
+            "relation": "oneToMany",
+            "target": "api::navbar.navbar",
+            "mappedBy": "navbar"
+        },
+        "wypSpisok": {
+            "type": "boolean",
+            "pluginOptions": {
+                "i18n": {
+                    "localized": true
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,57 @@
+{
+  "kind": "collectionType",
+  "collectionName": "navbar_contacts",
+  "info": {
+    "singularName": "navbar-contact",
+    "pluralName": "navbar-contacts",
+    "displayName": "navbar-contacts"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {
+    "i18n": {
+      "localized": true
+    }
+  },
+  "attributes": {
+    "call_subtitle": {
+      "type": "string",
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      }
+    },
+    "phone": {
+      "type": "string"
+    },
+    "phone_ssylka": {
+      "type": "string",
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      }
+    },
+    "button_text": {
+      "type": "string",
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      }
+    },
+    "button_url": {
+      "type": "string"
+    },
+    "call_icon": {
+      "allowedTypes": [
+        "images",
+        "files"
+      ],
+      "type": "media",
+      "multiple": false
+    }
+  }
+}

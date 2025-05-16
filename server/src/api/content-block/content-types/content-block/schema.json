@@ -1,0 +1,49 @@
+{
+  "kind": "collectionType",
+  "collectionName": "content_blocks",
+  "info": {
+    "singularName": "content-block",
+    "pluralName": "content-blocks",
+    "displayName": "content-blocks",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {
+    "i18n": {
+      "localized": true
+    }
+  },
+  "attributes": {
+    "key": {
+      "type": "string",
+      "required": true,
+      "unique": true,
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      }
+    },
+    "value": {
+      "type": "blocks",
+      "required": true,
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      }
+    },
+    "headerSurat": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": false
+    }
+  }
+}

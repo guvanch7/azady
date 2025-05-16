@@ -1,0 +1,80 @@
+{
+    "kind": "collectionType",
+    "collectionName": "video_mains",
+    "info": {
+        "singularName": "video-main",
+        "pluralName": "video-mains",
+        "displayName": "video-main",
+        "description": ""
+    },
+    "options": {
+        "draftAndPublish": true
+    },
+    "pluginOptions": {
+        "i18n": {
+            "localized": true
+        }
+    },
+    "attributes": {
+        "title": {
+            "type": "string",
+            "pluginOptions": {
+                "i18n": {
+                    "localized": false
+                }
+            }
+        },
+        "subtitle": {
+            "type": "string",
+            "pluginOptions": {
+                "i18n": {
+                    "localized": true
+                }
+            }
+        },
+        "text": {
+            "type": "text",
+            "pluginOptions": {
+                "i18n": {
+                    "localized": true
+                }
+            }
+        },
+        "image": {
+            "type": "media",
+            "multiple": false,
+            "required": false,
+            "allowedTypes": [
+                "images",
+                "files",
+                "videos",
+                "audios"
+            ]
+        },
+        "video_file": {
+            "type": "media",
+            "multiple": false,
+            "required": false,
+            "allowedTypes": [
+                "files",
+                "videos"
+            ]
+        },
+        "shape_image": {
+            "type": "media",
+            "multiple": false,
+            "required": false,
+            "allowedTypes": [
+                "images",
+                "files",
+                "videos",
+                "audios"
+            ]
+        },
+        "features": {
+            "type": "component",
+            "repeatable": true,
+            "component": "video.video-feature"
+        }
+    }
+}

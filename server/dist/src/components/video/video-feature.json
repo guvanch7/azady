@@ -1,0 +1,16 @@
+{
+    "collectionName": "components_video_video_features",
+    "info": {
+        "displayName": "video-feature",
+        "icon": "check"
+    },
+    "options": {},
+    "attributes": {
+        "text": {
+            "type": "string"
+        },
+        "icon_class": {
+            "type": "string"
+        }
+    }
+}
