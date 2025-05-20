@@ -1,0 +1,102 @@
+{
+  "kind": "collectionType",
+  "collectionName": "country_mains",
+  "info": {
+    "singularName": "country-main",
+    "pluralName": "country-mains",
+    "displayName": "country-main",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {
+    "i18n": {
+      "localized": true
+    }
+  },
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "short_description": {
+      "type": "richtext"
+    },
+    "content": {
+      "type": "richtext"
+    },
+    "image_1": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "flag": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "slug": {
+      "type": "uid",
+      "targetField": "title"
+    },
+    "visa_requirements": {
+      "type": "json"
+    },
+    "image_2": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "benefit_1_icon": {
+      "type": "string"
+    },
+    "benefit_1_text": {
+      "type": "string"
+    },
+    "benefit_2_icon": {
+      "type": "string"
+    },
+    "benefit_2_text": {
+      "type": "string"
+    },
+    "benefit_3_icon": {
+      "type": "string"
+    },
+    "benefit_3_text": {
+      "type": "string"
+    },
+    "countryTextTwo": {
+      "type": "richtext"
+    },
+    "countryTextThree": {
+      "type": "richtext"
+    },
+    "countryTextFour": {
+      "type": "richtext"
+    },
+    "countryHeadingText3": {
+      "type": "string"
+    },
+    "countryHeadingText4": {
+      "type": "string"
+    }
+  }
+}

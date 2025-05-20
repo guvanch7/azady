@@ -1,0 +1,16 @@
+{
+  "collectionName": "components_video_features",
+  "info": {
+    "displayName": "feature",
+    "icon": "check"
+  },
+  "options": {},
+  "attributes": {
+    "icon": {
+      "type": "enumeration",
+      "enum": [
+        "check"
+      ]
+    }
+  }
+}
